@@ -10,17 +10,27 @@ header {
     background: #000;
     color: #fff;
     padding: 1em;
+}
+.branding {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 0.5em;
 }
 .logo {
-    height: 60px;
+    height: 80px;
+    border-radius: 10px;
+}
+.site-title {
+    font-size: 1.8em;
+    margin: 0;
 }
 nav ul {
     list-style: none;
     display: flex;
     gap: 1em;
+    margin: 0;
+    padding: 0;
 }
 nav a {
     color: #fff;
