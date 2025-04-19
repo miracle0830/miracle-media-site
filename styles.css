@@ -52,3 +52,14 @@ form button {
     color: white;
     border: none;
 }
+.placeholder {
+    background: #ddd;
+    padding: 1em;
+    margin-top: 1em;
+}
+.video-placeholder, .photo-placeholder {
+    background: #bbb;
+    padding: 2em;
+    margin: 1em 0;
+    text-align: center;
+}
